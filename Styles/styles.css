@@ -1,0 +1,69 @@
+/* ------------------------------------------ Fonts ------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+/* ------------------------------------------ Fonts ------------------------------------------------ */
+
+
+/* ------------------------------------- Root Variables -------------------------------------------- */
+:root{
+    --purple: #883AE1;
+    --light_purple: #E6D6FC;
+    --black: #20293A;
+    --gray: #6C727F;
+    --light_gray: #E5EAF0;
+    --white: #FFFFFF;
+    --white2: #FAFAF9;
+}
+/* ------------------------------------- Root Variables -------------------------------------------- */
+
+
+/* ----------------------------------- Universal Selector ------------------------------------------ */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+
+}
+/* ----------------------------------- Universal Selector ------------------------------------------ */
+/* --------------------------------------- Container ----------------------------------------------- */
+.container{
+    width: 336px;
+    padding: 16px 16px 20px 16px;
+    margin: 50px auto 0 auto;
+    border-radius: 1rem;
+    box-shadow: 0px 30px 100px 0px var(--light_gray)
+}
+.element{
+    width: 100%;
+    /* border: 1px solid; */
+}
+.element img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.title{
+    font-size: 1.125rem;
+    color: var(--black);
+    margin-bottom: 6px;
+}
+.body{
+    font-size: 0.875rem;
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+.small-text{
+    font-size: 0.75rem;
+    color: var(--gray);
+    margin-top: 20px;
+}
+.tag{
+    font-size: 0.625rem;
+    color: var(--purple);
+    background-color: var(--light_purple);
+    margin: 16px 0;
+    padding: 2.5px 5px;
+    border-radius: 10px;
+    width: 4rem;
+    text-align: center;
+}
+/* --------------------------------------- Container ----------------------------------------------- */
